@@ -6,7 +6,6 @@ public class Limit {
 	private String Eval;
 	
 	public Limit(Polynomial f, double approach) {
-		for (int i=)
 	}
 
 	public String getVal() {

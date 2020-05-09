@@ -20,8 +20,6 @@ public class Polynomial {
 	}
 	
 	public double getCoef(int index) {
-		for(int i=0; i<= this.coefficients.size()-1; i++) {
-			
-		}
+		return this.coefficients.get(index);
 	}
 }
