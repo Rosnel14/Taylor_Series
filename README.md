@@ -6,4 +6,4 @@ A program that creates taylor series approximations of functions
 the functions that I'll be working on. To start off, I'll deal with polynomials.
 First I need to find the limit, and after that I can apply the definition of a derivative 
 in order to find different degree taylor polynomials and approximations.
-![Diff_Quotient.svg]
+![Newton's Difference Quotient](http://svgur.com/i/3Qk.svg)
