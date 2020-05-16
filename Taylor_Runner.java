@@ -10,6 +10,7 @@ private TaylorGraph graph;
 	public void run() {
 		graph = new TaylorGraph();
 		add(graph);
+		
 	}
 
 }

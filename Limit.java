@@ -6,6 +6,7 @@ public class Limit {
 	private String Eval;
 	
 	public Limit(Polynomial f, double approach) {
+		this.evaluation = evaluateLimit(f,approach);
 	}
 
 	public String getVal() {
@@ -14,5 +15,9 @@ public class Limit {
 	
 	public double getNum() {
 		return evaluation;
+	}
+	
+	private double evaluateLimit(Polynomial f, double approach) {
+
 	}
 }
