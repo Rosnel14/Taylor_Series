@@ -7,3 +7,4 @@ the functions that I'll be working on. To start off, I'll deal with polynomials.
 First I need to find the limit, and after that I can apply the definition of a derivative 
 in order to find different degree taylor polynomials and approximations.
 ![Newton's Difference Quotient](http://svgur.com/i/3Qk.svg)
+![Screen-Shot-2020-05-19-at-150705.gif]
