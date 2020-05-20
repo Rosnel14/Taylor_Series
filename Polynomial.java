@@ -5,12 +5,12 @@ import java.util.ArrayList;
 public class Polynomial {
 
 	private int degree;
-	private ArrayList<Double> coefficients;
+	private double[] coefficients; //Gonna change to an array 
 	
-	public Polynomial(int degree, ArrayList<Double> coefficients) {
+	public Polynomial(int degree, double[] coefficients {
 		this.degree = degree;
-		for (double d : coefficients) {
-			this.coefficients.add(d);
+		for (int i=0; i<= coefficients.size()-1; i++) {
+			this.coefficients.add(coefficients.get(i));
 		}
 		
 	}
