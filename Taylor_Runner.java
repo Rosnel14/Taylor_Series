@@ -13,4 +13,7 @@ private TaylorGraph graph;
 		
 	}
 
+	public void init() {
+		
+	}
 }

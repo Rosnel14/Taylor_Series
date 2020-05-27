@@ -22,4 +22,8 @@ public class Polynomial {
 	public double getCoef(int index) {
 		return this.coefficients.get(index);
 	}
+	
+	public int getCoefSize() {
+		return this.coefficients.size();
+	}
 }

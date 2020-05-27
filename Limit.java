@@ -18,6 +18,10 @@ public class Limit {
 	}
 	
 	private double evaluateLimit(Polynomial f, double approach) {
-
+		double temp = 0;
+		for (int i=0; i <= f.getCoefSize()-1; i++) {
+			temp += Math.pow(f.getCoef(i), f.getDeg()-i);
+		}
+		return temp;
 	}
 }
