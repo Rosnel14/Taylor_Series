@@ -10,29 +10,21 @@ public class Limit {
 	}
 
 	public String getVal() {
-		return Eval;
+		return this.Eval;
 	}
 
 	public double getNum() {
-		return evaluation;
+		return this.evaluation;
 	}
-<<<<<<< HEAD
-	
-	private double evaluateLimit(Polynomial f, double approach) {
-		double temp = 0;
-		for (int i=0; i <= f.getCoefSize()-1; i++) {
-			temp += Math.pow(f.getCoef(i), f.getDeg()-i);
-		}
-		return temp;
-=======
 
 	private double evaluateLimit(Polynomial f, double approach) {
+		double temp = 0;
 		int counter = 0;
-		for (int i = f.sizeOfPoly(); i <= 0; i--) {
-			this.evaluation = f.getCoef(i) * Math.pow(approach, f.getDeg() - counter);
+		for (int i = f.getCoefSize(); i <= 0; i--) {
+			temp = f.getCoef(i) * Math.pow(approach, f.getDeg() - counter);
 			counter++;
 		}
-		return this.evaluation;
->>>>>>> 387785ed4b3034f2034e214ec320e556fabf2048
+		return temp;
 	}
+
 }
