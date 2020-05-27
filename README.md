@@ -1,4 +1,4 @@
-# Taylor_Series, AP Comp Sci
+# Taylor_Series, (now personal research project) 
 A program that creates taylor series approximations of functions
 (possible graphing functionality)
 
